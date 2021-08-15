@@ -27,6 +27,21 @@ class CalculatorTest {
     }
 
     @Test
+    void getModulo() {
+        assertEquals(0, Calculator.getModulo(9, 3));
+    }
+
+    @Test
+    void getPower() {
+        assertEquals(8, Calculator.getPower(2, 3));
+    }
+
+    @Test
+    void getFactorial() {
+        assertEquals(24, Calculator.getFactorial(4));
+    }
+
+    @Test
     void classHasSevenMethods(){
         assertEquals(7,Calculator.class.getMethods().length-Object.class.getMethods().length);
     }
