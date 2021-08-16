@@ -1,4 +1,4 @@
-package com.sbrf.reboot.calculator;
+package com.sbrf.reboot;
 
 import static java.lang.Math.pow;
 
